@@ -36,4 +36,11 @@ public class UserController {
 
         return languages;
     }
+
+    @RequestMapping(value="/languages")
+    public List<String> checkPassword(@RequestParam(value="password") String email,
+                                      @RequestParam(value="email") String password) {
+        Boolean isTrue = checkPassword(email, password);
+    }
+
 }

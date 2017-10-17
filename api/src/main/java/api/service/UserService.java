@@ -26,4 +26,10 @@ public class UserService {
 
         return languages;
     }
+
+    public Boolean checkPassword(String email, String password) {
+        User user = findByEmail(email);
+
+        return isTrue;
+    }
 }

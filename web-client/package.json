@@ -18,6 +18,7 @@
     "log4js": "^2.3.3",
     "method-override": "~2.3.9",
     "mkdirp": "^0.5.1",
+    "passport": "^0.4.0",
     "pug": "~2.0.0-rc.2",
     "request": "~2.81.0",
     "serve-favicon": "~2.4.3"
